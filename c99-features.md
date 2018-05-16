@@ -66,8 +66,8 @@ struct point p2 = {y: 3, x: 1};
 
 ``` c
 struct line {
-int length;
-char data[]; // 如果使用 gcc 编译器, 则可以写成 char data[0];
+    int length;
+    char data[]; // 如果使用 gcc 编译器, 则可以写成 char data[0];
 };
 ```
 
