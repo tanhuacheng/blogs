@@ -230,7 +230,7 @@ int a[] = (int[]){1, 2, 3};
 
 标准头 `inttypes.h`
 
-    允许 printf 和 scanf 实用 stdint.h 中定义的整型
+    允许 printf 和 scanf 使用 stdint.h 中定义的整型
 
         PRIsN
         PRIsLEASTN
